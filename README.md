@@ -1,7 +1,8 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/403a4bb837ca47333d33/maintainability)](https://codeclimate.com/github/seeseemelk/MockBukkit/maintainability)
 # MockBukkit
 MockBukkit is a framework that makes the unit testing of Bukkit plugins a whole lot easier.
 It aims to be a complete mock implementation.
+
+**This is a fork of the [original MockBukkit](https://github.com/MockBukkit/MockBukkit) that intends to support legacy versions such as 1.12, if you want newer Minecraft versions please use the original**
 
 ## Usage
 MockBukkit can easily be included in gradle using jitpack.io
@@ -11,7 +12,7 @@ repositories {
 }
 dependencies {
     testCompile 'junit:junit:4.12'
-    testCompile 'com.github.seeseemelk:MockBukkit:master-SNAPSHOT'
+    testCompile 'com.github.ravenlab:MockBukkit:master-SNAPSHOT'
 }
 ```
 

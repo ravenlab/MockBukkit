@@ -3,6 +3,7 @@ plugins {
     id 'java-library'
     id 'eclipse'
     id 'idea'
+    id 'maven-publish'
 }
 
 sourceCompatibility = JavaVersion.VERSION_11
